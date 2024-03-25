@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="description" content="Gerčar Mizarstvo, pohištvo po meri; Izdelava kuhinje, kopalniške opreme, otroške sobe, notranja vrata vrhunske kakovosti.">
+        <meta name="author" content="Mizarstvo Gerčar">
+
+        <!-- Favicon and touch Icons -->
+        <link href="assets/img/favicon.png" rel="shortcut icon" type="image/png">
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="assets/img/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+        <link href="assets/img/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+        <link href="assets/img/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+
+        <!-- Page Title -->
+        <title>Mizarstvo Gerčar, pohištvo po meri </title>    
+        
+        <!-- Styles Include -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+    </head>
+
+
+    <body class="bg-dark">
+
+        <!-- Preloader -->
+        <div id="preloader">
+			<div class="preloader-inner">
+				<div class="spinner"></div>
+				<div class="loading-text">
+					<span data-preloader-text="G" class="characters">G</span>
+					
+					<span data-preloader-text="E" class="characters">E</span>
+					
+					<span data-preloader-text="R" class="characters">R</span>
+					
+					<span data-preloader-text="Č" class="characters">Č</span>
+					
+					<span data-preloader-text="A" class="characters">A</span>
+
+					<span data-preloader-text="R" class="characters">R</span>
+
+				</div>
+			</div>
+		</div>
+
+        
+
+        <!-- Color Mode Switcher -->
+		<div id="mode_switcher">
+			<span><i class="bi bi-moon-fill"></i></span>	
+		</div>        
+
+        <!-- Cursor Effect -->
+        <div class="pointer bnz-pointer" id="bnz-pointer"></div>
+
+        <!-- Header -->
+		<header class="header">				
+            <div class="container">
+                <div class="header_inner d-flex align-items-center justify-content-between">
+                    <div class="logo">
+                        <a href="index.html" class="light_logo"><img src="assets/img/logo-light.svg" alt="logo"></a>
+                        <a href="index.html" class="dark_logo"><img src="assets/img/logo-dark.svg" alt="logo"></a>
+                    </div>
+
+                    
+                    <div class="mainnav d-none d-lg-block">
+                        <ul class="main_menu">
+                            <li class="menu-item"><a href="index.html">Domov</a>
+                            </li>
+                            <li class="menu-item"><a href="#galerija">Galerija</a>
+                            </li>
+                            <li class="menu-item"><a href="o-nas.html">O nas</a>
+                                    </li>
+                                    
+                        </ul>
+                    </div>
+                    <div class="header_right_part d-flex align-items-center">
+                        <button class="aside_open">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </button>
+                        </div>
+                      
+
+                        <!-- Mobile Responsive Menu Toggle Button -->
+                        <button type="button" class="mr_menu_toggle d-lg-none">
+                            <i class="bi bi-list"></i>
+                        </button>
+                    </div>
+                </div>
+			</div>
+		</header>
+
+        <!-- Mobile Responsive Menu -->
+		<div class="mr_menu">
+			<div class="mr_menu_overlay"></div>
+			<button type="button" class="mr_menu_close"><i class="bi bi-x-lg"></i></button>
+            <div class="logo"></div> <!-- Keep this div empty. Logo will come here by JavaScript -->
+			<div class="mr_navmenu"></div> <!-- Keep this div empty. Menu will come here by JavaScript -->
+
+            <!-- Footer-->
+            <footer class="footer p-0">
+                <div class="footer_inner pb-0">
+                    <div class="footer_elements d-flex align-items-center justify-content-center">
+                        <div class="footer_elements_inner">
+                            <div class="footer_social">
+                                <ul class="social_list justify-content-center">
+                                    <li class="facebook"><a href="https://www.facebook.com/mizarstvo.gercar/?locale=sl_SI"><i class="bi bi-facebook"></i></a></li>
+                                    <li class="instagram"><a href="https://www.instagram.com/mizarstvo_gercar/"><i class="bi bi-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="terms_condition">
+                                <ul>
+                                    <li><a href="assets/img/varstvo.pdf">Varstvo podatkov</a></li>
+                                </ul>
+                            </div>
+                            <div class="copyright">
+                                <p>Mizarstvo Gerčar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+		</div>
+
+        <div class="aside_info_wrapper">
+			<button class="aside_close"><i class="bi bi-x-lg"></i></button>
+            <div class="aside_logo">
+                <a href="index.html" class="light_logo"><img src="assets/img/logo-wh.svg" alt="logo"></a>
+                <a href="index.html" class="dark_logo"><img src="assets/img/logo-dark-lg.svg" alt="logo"></a>
+            </div>
+			<div class="aside_info_inner">
+                <p>Mizarstvo Gerčar  s sloganom »Pohištvo po meri«  deluje že od leta 1988. Smo podjetje, ki izdeluje unikatno, moderno pohištvo po meri, visoko kakovostne izdelave katere tudi vgradimo. Izdelujemo tudi notranja vrata. Za lažjo predstavo pred samo izdelavo nudimo 3D izris pohištva, pomoč pri postavitvi elementov in iskanje rešitev. Vse to nam omogočajo dolgoletne izkušnje, inovativnost ter predanost delu, saj je naš končni cilj zadovoljstvo stranke. 
+</p>
+                
+                <div class="aside_info_inner_box">
+                    <h5>Kontakt</h5>
+                    <p>041 716 240</p>
+                   
+                    <p>info@mizarstvo-gerčar.si</p>
+
+                    <h5>Naslov</h5>
+                     <p>Opekarska cesta 8, 1225 Lukovica <br> Slovenija</p>
+                </div>
+                <div class="social_sites">
+                    <ul class="d-flex align-items-center justify-content-center">
+                        <li class="facebook"><a href="https://www.facebook.com/mizarstvo.gercar/?locale=sl_SI"><i class="bi bi-facebook"></i></a></li>
+                        <li class="instagram"><a href="https://www.instagram.com/mizarstvo_gercar/"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+
+        
+        <!-- Main Wrapper-->
+        <main class="wrapper">
+            <div class="theme_slider bg-black">
+                <div class="container">
+                    <div class="swiper swiper_theme_slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider" style="background-image: url('assets/img/slider/14.jpg')">
+                                    <div class="slide_content">
+                                        <div class="slide_content_wrapper mb-0 h-auto bg-dark-100">
+                                            <div class="slide_content_inner">
+                                                <div class="meta m-0">
+                                                    <div class="category text-olive text-uppercase">MIZARSTVO GERČAR</div>
+                                                </div>
+                                                <h4 class="text-white">Kuhinje ob katerih te prevzame. Kvalitetna izdelava in natančna montaža. </h4>
+                                                <div class="details_link">
+                                                        <span class="link_text">ŽE OD LETA 1988</span> 
+                                                        <span class="link_icon">
+                                                            <span class="line"></span> 
+                                                            <span class="circle"></span>
+                                                            <span class="dot"></span>
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="slider" style="background-image: url('assets/img/slider/5.jpg')">
+                                    <div class="slide_content">
+                                        <div class="slide_content_wrapper mb-0 h-auto bg-dark-100">
+                                            <div class="slide_content_inner">
+                                                <div class="meta m-0">
+                                                    <div class="category text-olive text-uppercase">MIZARSTVO GERČAR</div>
+                                                </div>
+                                                <h4><a href="project-details.html" class="text-white">Otroške sobe, v katerih se vse sanje uresničijo.</a></h4>
+                                                <div class="details_link">
+                                                        <span class="link_text">ŽE OD LETA 1988</span> 
+                                                        <span class="link_icon">
+                                                            <span class="line"></span> 
+                                                            <span class="circle"></span>
+                                                            <span class="dot"></span>
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="slider" style="background-image: url('assets/img/slider/8.jpg')">
+                                    <div class="slide_content">
+                                        <div class="slide_content_wrapper mb-0 h-auto bg-dark-100">
+                                            <div class="slide_content_inner">
+                                                <div class="meta m-0">
+                                                    <div class="category text-olive text-uppercase">MIZARSTVO GERČAR</div>
+                                                </div>
+                                                <h4><a href="project-details.html" class="text-white">Kopalnice, ki izstopajo.</a></h4>
+                                                <div class="details_link">
+                                                        <span class="link_text">ŽE OD LETA 1988</span> 
+                                                        <span class="link_icon">
+                                                            <span class="line"></span> 
+                                                            <span class="circle"></span>
+                                                            <span class="dot"></span>
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Add Buttons -->
+                        <div class="swiper-navigation">
+                            <div class="swiper-button-prev"><i class="bi bi-arrow-left"></i></div>
+                            <div class="swiper-button-next"><i class="bi bi-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider_bg bg-dark-100"></div>
+            </div>
+
+            <section class="services bg-dark-100 pt-4 pb-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500">
+                            <div class="icon_box">
+                                <h6>01</h6>
+                                <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
+                                <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
+                                <h4 class="text-white"><a href="service-details.html">POHIŠTVO PO MERI</a></h4>
+                                <p class="text-gray-600">Izdelujemo kopalnice, spalnice, garderobne omare, stopnice, otroške sobe, pisarne ter tudi notranja vrata. Vsak project je unikaten, zato se za ponudbo obrnite po e-pošti ali stopite z nami v kontak preko telefona, spletne strani ali socialnih omrežij.</p>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="700">
+                            <div class="icon_box">
+                                <h6>02</h6>
+                                <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
+                                <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
+                                <h4 class="text-white"><a href="service-details.html">KVALITETA</a></h4>
+                                <p class="text-gray-600">Mizarstvo Gerčar uporablja kvalitetne izdelke proizvajalca Kaindl, s katerimi obljublja dolgo življensko dobo pohištva. Za svoje delo nudi tudi garancijo.Izdelano z najvišjo natančnostjo s pomočjo visokotehnoloških strojev. </p>
+                             
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="900">
+                            <div class="icon_box">
+                                <h6>03</h6>
+                                <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
+                                <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
+                                <h4 class="text-white"><a href="service-details.html">DESIGN</a></h4>
+                                <p class="text-gray-600">Vsak projekt je izrisan v 3D programu, kjer lahko najbolj izpopolnimo prostor tako v praktičnem kot v estetskem smislu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about bg-dark-100">
+                <div class="large_font">
+                    <h2 class="floating_element text-dark-200 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">O nas</h2>
+                </div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="about_image">
+                                <img src="assets/img/about/a1.jpg" alt="img">
+                                <img src="assets/img/about/e1.svg" alt="About" data-aos="fade-down" data-aos-duration="1000">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-7">
+                            <div class="about_text_inner">
+                                <div class="about_text">
+                                    <h2 class="text-white">O MIZARSTVU GERČAR</h2>
+                                    <p>Mizarstvo Gerčar  s sloganom »Pohištvo po meri«  deluje že od leta 1988. Smo podjetje, ki izdeluje unikatno, moderno pohištvo po meri, visoko kakovostne izdelave katere tudi vgradimo. Izdelujemo tudi notranja vrata. Za lažjo predstavo pred samo izdelavo nudimo 3D izris pohištva, pomoč pri postavitvi elementov in iskanje rešitev. Vse to nam omogočajo dolgoletne izkušnje, inovativnost ter predanost delu, saj je naš končni cilj zadovoljstvo stranke. 
+</p>
+                                </div>
+
+                                <div class="about_icon_box">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon_box_flex">
+                                                <div class="icon_size">
+                                                    <img src="assets/img/about/i2.svg" alt="Icon">
+                                                </div>
+                                                <h6>Mizarstvo po meri</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="icon_box_flex">
+                                                <div class="icon_size">
+                                                    <img src="assets/img/about/i3.svg" alt="Icon">
+                                                </div>
+                                                <h6>Svetovanje</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="icon_box_flex">
+                                                <div class="icon_size">
+                                                    <img src="assets/img/about/i1.svg" alt="Icon">
+                                                </div>
+                                                <h6>Možen 3D izris pohištva</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="icon_box_flex">
+                                                <div class="icon_size">
+                                                    <img src="assets/img/about/i4.svg" alt="Icon">
+                                                </div>
+                                                <h6>Celovite rešitve</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn_group" data-aos="fade-down" data-aos-duration="1000">
+                                    <a href="o-nas.html" class="btn gray">Več o nas</a>  
+                                </div>
+                            </div>
+                                                
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="funfacts bg_1" id="funfacts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="funfacts_inner">
+                                <div class="funfact2 d-flex align-items-center">
+                                    
+                                    <div class="funfact_content">
+                                        <p>Narejenih pohištev</p>
+                                        <div class="d-flex align-items-center"><h2 class="fun-number">9800</h2></div>                                
+                                    </div>
+                                </div>                            
+                                <div class="funfact2 d-flex align-items-center">
+                                    
+                                    <div class="funfact_content">
+                                        <p>Zadovoljnih strank</p>
+                                        <div class="d-flex align-items-center"><h2 class="fun-number">2000</h2><span>+</span></div>
+                                    </div>
+                                </div>                            
+                                <div class="funfact2 d-flex align-items-center">
+                                   
+                                    <div class="funfact_content">
+                                        <p>Ustanovljeno podjetje</p>
+                                        <div class="d-flex align-items-center"><h2 class="fun-number">1988</h2></div>
+                                    </div>
+                                </div>                            
+                                <div class="funfact2 d-flex align-items-center">
+                                  
+                                    <div class="funfact_content">
+                                        <p>Število zaposlenih</p>
+                                        <div class="d-flex align-items-center"><h2 class="fun-number">5</h2></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          
+
+            <section class="projects packery">
+                <!-- Section Grid Lines -->
+                <ul class="grid_lines d-none d-md-flex justify-content-between">
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                </ul>
+                <div class="large_font">
+                    <h2 class="floating_element text-dark-200 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">Galerija</h2>
+                </div>
+                <div class="container" id="galerija">
+                    <div class="section-header text-center has_line">
+                        <h2 class="text-white">Galerija projektov</h2>
+                        <div class="section-desc row align-items-center justify-content-center">
+                            <div class="col-lg-6 text-end">
+                                <p>Spodaj si lahko ogledate nakaj utrinkov našega dela. Vsi izdelki so po meri narejeni v naši delavnici v Lukovici.</p>
+                            </div>
+                            <div class="col-lg-6 text-start">
+                                <p>Naše reference  - fotke – redno objavljamo na družbenih omrežjih. Spoštujemo stranke, zato naročniki ostanejo anonimni. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-filters-content">
+                        <div class="filters-button-group">
+                            <button class="button is-checked" data-filter="*">Vse<sup class="filter-count"></sup></button>
+                            <button class="button" data-filter=".exterior">Pohištvo<sup class="filter-count"></sup></button>
+                            <button class="button" data-filter=".residences">Kuhinje<sup class="filter-count"></sup></button>
+                            <button class="button" data-filter=".interiors">Kopalnice<sup class="filter-count"></sup></button>
+                            <button class="button" data-filter=".landscape">Vrata<sup class="filter-count"></sup></button>
+                        </div>
+                    </div>
+                    <div class="grid gutter-20 clearfix"> 
+                        <div class="grid-sizer"></div>                          
+                        <div class="grid-item residences width-100">
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/1.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6><a href="#">Kuhinje</a></h6>
+                                        <h5>Kuhinja Gray Queen</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                          
+                        <div class="grid-item interiors width-50"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/2.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Kuhinje</h6>
+                                        <h5>Črna - lesena</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item residences width-50"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/3.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Kuhinje</a></h6>
+                                        <h5>ALL WHITE</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item landscape exterior width-100"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/4.jpg" alt="">
+                                <div class="works-info">
+                                   <div class="label-text">
+                                       <h6>Predsoba</a></h6>
+                                       <h5>Luksuzen prvi pogled</a></h5>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item landscape width-50"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/5.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item interiors width-50">
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/6.jpg" alt="">
+                                <div class="works-info">
+                                   <div class="label-text">
+                                       <h6>Predsoba</a></h6>
+                                       <h5>Luksuzen prvi pogled</a></h5>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>                          
+                        <div class="grid-item interiors width-100"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/7.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                     
+                        <div class="grid-item exterior width-100">
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/8.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                          
+                        <div class="grid-item interiors width-50"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/2.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item residences width-50"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/3.jpg" alt="">
+                                <div class="works-info">
+                                   <div class="label-text">
+                                       <h6>Predsoba</a></h6>
+                                       <h5>Luksuzen prvi pogled</a></h5>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item landscape exterior width-100"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/4.jpg" alt="">
+                                <div class="works-info">
+                                   <div class="label-text">
+                                       <h6>Predsoba</a></h6>
+                                       <h5>Luksuzen prvi pogled</a></h5>
+                                   </div>
+                                </div>
+                            </div>
+                        </div> 
+						
+                        <div class="grid-item exterior width-100">
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/8.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                          
+                        <div class="grid-item interiors width-50"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/2.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item residences width-50"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/3.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="grid-item landscape exterior width-100"> 
+                            <div class="thumb">
+                                <img class="item_image" src="assets/img/portfolio/packery/4.jpg" alt="">
+                                <div class="works-info">
+                                    <div class="label-text">
+                                        <h6>Predsoba</a></h6>
+                                        <h5>Luksuzen prvi pogled</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						
+						
+                    </div>
+                    <div class="btn_group mt-4 w-100 text-center">
+                        <button id="load-more" class="btn olive w-100">Prikaži več projektov</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonial box_padding pb-0">
+                <!-- Section Grid Lines -->
+                <ul class="grid_lines d-none d-md-flex justify-content-between">
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                </ul>
+                <div class="has_line_lg"></div>
+                <div class="testimonial_inner bg-black">
+                    <!-- Swiper Testimonial -->
+                    <div class="swiper swiper_testimonial">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-block text-center">
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla"</p>
+                                    <h6 class="text-olive">Anja, Ljubljana</h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-block text-center">
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla"</p>
+                                    <h6 class="text-olive">Luka, Mengeš</h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-block text-center">
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla"</p>
+                                    <h6 class="text-olive">Družina Jenko, Maribor</h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-block text-center">
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla"</p>
+                                    <h6 class="text-olive">Pisarne Remax, Slovenija</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog pt-lg bg-dark-100">
+                <div class="large_font">
+                    <h2 class="floating_element text-dark-200 d-flex justify-content-center">Koraki</h2>
+                </div>
+                <div class="container">
+                    <div class="section-header text-center has_line">
+                        <h2 class="text-white">Kakšni so koraki?</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog_post mb-0">
+                                <img src="assets/img/blog/1.jpg" alt="img">
+                                <div class="blog_content">                                    
+                                    <h2 class="post-count">01</h2>
+                                    <div class="meta">
+                                        <time class="text-olive" datetime="2022-10-20">Predstavite nam svoje žeelje</time>
+                                    </div>
+                                    <h5  class="text-white">Pišite ali pokličite nas</a></h5>
+                                    <p>Stopite z nami v kontakt preko emaila, telefona, socialnih omrežij. Pošljete okvirne ideje, želje. Mi pripravimo okviren predračun in vam ga pošljemo</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog_post mb-0">
+                                <img src="assets/img/blog/2.jpg" alt="img">
+                                <div class="blog_content">                                    
+                                    <h2 class="post-count">02</h2>
+                                    <div class="meta">
+                                        <time class="text-olive" datetime="2022-10-20">Izmera na objektu</time>
+                                    </div>
+                                    <h5><a href="blog-details.html" class="text-white">3D IZRIS</a></h5>
+                                    <p>Pošljemo vam 3D izris pohištva in uskladimo vse podrobnosti za izdelavo</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog_post mb-0">
+                                <img src=assets/img/blog/3.jpg" alt="img">
+                                <div class="blog_content">                                    
+                                    <h2 class="post-count">03</h2>
+                                    <div class="meta">
+                                        <time class="text-olive" datetime="2022-10-20">Izdelava pohištva</time>
+                                    </div>
+                                    <h5 class="text-white">Pohištvo izdelamo pri nas in sledi montaža</a></h5>
+                                    <p>Vso naše pohištvo je narejeno v naši mizarski delavnici in je skrbno dostavljeno in zmontirano na vašem objektu. Tudi pri montaži pohištva ste lahko brez dodatnih skrbi, ker so naši zaposleni zelo natančni in vse pravilno zaščitijo, da ne bi prišlo do pošodb vašega doma. </p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           
+            
+                <!-- Section Grid Lines -->
+                <ul class="grid_lines d-none d-md-flex justify-content-between">
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                </ul>
+            </section>
+
+        </main>
+
+        <!-- Footer-->
+        <footer class="footer bg-dark-200 box_padding">
+            <div class="footer_inner bg-black">
+                <div class="container">
+                    <div class="row align-items-end">
+                        <div class="col-lg-4 col-md-2 col-sm-2">
+                            <div class="section-header">
+                                <h2>Kontakt</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-5">
+                            <div class="communication">
+                                <div class="info_body">
+                                    <h6>Naša spletna stran</h6>
+                                    <h5>www.mizarstvo-gerčar.si</h5>
+                                </div>
+                                <div class="info_body">
+                                    <h6>Email</h6>
+                                    <h5>mizarstvo@mizarstvo-gercar.si</h5>
+                                </div>
+                                <div class="info_body">
+                                    <h6>Telefon</h6>
+                                    <h5>+386 (0)41 716 240</h5>
+                                </div>
+                                <div class="info_body">
+                                    <h6>Naslov</h6>
+                                    <h5>Opekarska cesta 8, 1225 Lukovica</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-5">
+                            <div class="footer_elements d-flex align-items-center justify-content-end">
+                                <div class="footer_elements_inner">
+                                    <div class="footer_logo">
+                                        <a href="index.html" class="light_logo"><img src="assets/img/logo-light.svg" alt="logo"></a>
+                                    </div>
+                                    <div class="footer_social">
+                                        <ul class="social_list">
+                                            <li class="facebook"><a href="https://www.facebook.com/mizarstvo.gercar/?locale=sl_SI"><i class="bi bi-facebook"></i></a></li>
+                                            <li class="instagram"><a href="https://www.instagram.com/mizarstvo_gercar/"><i class="bi bi-instagram"></i></a></li>
+                                          
+                                        </ul>
+                                    </div>
+                                    <div class="terms_condition">
+                                        <ul>
+                                            <li><a href="assets/img/varstvo.pdf">Varstvo podatkov</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="copyright">
+                                        <p>Mizarstvo Gerčar. Vse pravice pridržane.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Section Grid Lines -->
+                <ul class="grid_lines d-none d-md-flex justify-content-between">
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                    <li class="grid_line"></li>
+                </ul>
+            </div>
+        </footer>
+
+        <div class="totop">
+            <a href="#">na vrh</a>
+        </div>
+
+        <!-- Section Grid Lines -->
+        <ul class="grid_lines d-none d-md-flex justify-content-between">
+            <li class="grid_line"></li>
+            <li class="grid_line"></li>
+            <li class="grid_line"></li>
+            <li class="grid_line"></li>
+            <li class="grid_line"></li>
+            <li class="grid_line"></li>
+            <li class="grid_line"></li>
+        </ul>
+        
+
+        <!-- Core JS -->
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+        
+        
+        <!-- Swiper for Slider Type -->
+        <script src="plugins/swiper/swiper-bundle.min.js"></script>
+        
+        <!-- Funfacts -->
+        <script src="assets/js/funfacts.js"></script>
+        
+        <!-- Portfolio -->
+        <script src="plugins/isotope/isotope.pkgd.min.js"></script>
+        <script src="plugins/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="plugins/isotope/packery-mode.pkgd.js"></script>
+        <script src="plugins/isotope/tilt.jquery.js"></script>
+        <script src="plugins/isotope/isotope-init.js"></script>
+        
+        
+
+        <!-- Cursor Effect -->
+        <script src="plugins/cursor-effect/cursor-effect.js"></script>
+        
+        <!-- Select2 -->
+        <script src="plugins/select2/js/select2.min.js"></script>
+        
+        <!-- AOS effect JS -->
+        <script src="plugins/aos/aos.js"></script>
+        
+        <!-- Theme Custom JS -->
+        <script src="assets/js/theme.js"></script>
+    </body>
+</html>

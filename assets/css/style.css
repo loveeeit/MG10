@@ -14593,7 +14593,7 @@ body.left_menu .mr_menu {
 
 .grid-item .label-text h5, .grid-item .label-text .h5 {
   position: relative;
-  color: #ffffff;
+  color: #999999;
   transition-delay: 0.6s;
   margin-bottom: 0.625rem;
 }
@@ -14616,6 +14616,9 @@ body.left_menu .mr_menu {
   margin-bottom: 0px;
   transition-delay: 0.9s;
 }
+
+
+
 
 .grid-item .label-text h6 a, .grid-item .label-text .h6 a {
   color: #999999;
